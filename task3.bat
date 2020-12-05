@@ -1,0 +1,2 @@
+@echo off
+start cmd /k "cd /d D:/2020Autumn/RL/rl-midterm-master && CALL D:\ProgramData\Anaconda3\Scripts\activate.bat D:\ProgramData\Anaconda3 && conda activate win32 && python -m pysc2.bin.agent --map FindAndDefeatZerglings --agent ruled_agent.task3.FindAndDefeatZerglings --use_feature_units"
